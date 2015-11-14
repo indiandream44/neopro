@@ -1,2 +1,26 @@
 ssh -i neu-II.pem ec2-user@ec2-54-229-200-148.eu-west-1.compute.amazonaws.com
 
+git clone https://github.com/indiandream44/neopro.git
+
+./gradlew tomcatRun
+
+
+
+wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u65-b17/jdk-8u65-linux-x64.tar.gz"
+
+sudo update-alternatives --install /usr/bin/java java /opt/java/jdk1.8.0_65/bin/java 100
+
+sudo update-alternatives --install /usr/bin/javac javac /opt/java/jdk1.8.0_65/bin/javac 100
+sudo update-alternatives --config javac
+
+sudo update-alternatives --install /usr/bin/jar jar /opt/java/jdk1.8.0_65/bin/jar 100
+sudo update-alternatives --config jar
+
+
+export JAVA_HOME=/opt/java/jdk1.8.0_65/
+export JRE_HOME=/opt/java/jdk1.8.0._65/jre
+export PATH=$PATH:/opt/java/jdk1.8.0_65/bin:/opt/java/jdk1.8.0_65/jre/bin
+
+http://54.229.200.148/DemoApplication/
+
+http://ec2-54-229-200-148.eu-west-1.compute.amazonaws.com/
