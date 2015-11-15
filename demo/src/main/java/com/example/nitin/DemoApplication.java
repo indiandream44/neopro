@@ -21,7 +21,7 @@ public class DemoApplication {
 
         @RequestMapping("/")
         public String root() {
-            return "timepass";
+            return "<h1> Project Sayona </h1>";
         }
     }
 }
