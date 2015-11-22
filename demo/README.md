@@ -24,3 +24,9 @@ export PATH=$PATH:/opt/java/jdk1.8.0_65/bin:/opt/java/jdk1.8.0_65/jre/bin
 http://54.229.200.148/DemoApplication/
 
 http://ec2-54-229-200-148.eu-west-1.compute.amazonaws.com/
+
+/home/ec2-user/myapp/neopro/demo/application.properties
+
+nohup sudo java -jar -Dserver.port=80 -Dapp.config=/home/ec2-user/myapp/neopro/demo/application.properties build/libs/sayona-0.0.1-SNAPSHOT.jar &
+
+
