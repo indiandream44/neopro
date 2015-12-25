@@ -36,6 +36,8 @@ dependencies {
     compile('org.springframework:spring-webmvc:4.1.6.RELEASE')
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile('javax.servlet:jstl:1.2')
+    compile('org.springframework:spring-jdbc')
+    compile('mysql:mysql-connector-java')
         //Enable security
     compile("org.springframework.boot:spring-boot-starter-security")
     testCompile('org.springframework.boot:spring-boot-starter-test')

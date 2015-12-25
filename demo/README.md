@@ -30,3 +30,13 @@ http://ec2-54-229-200-148.eu-west-1.compute.amazonaws.com/
 nohup sudo java -jar -Dserver.port=80 -Dapp.config=/home/ec2-user/myapp/neopro/demo/application.properties build/libs/sayona-0.0.1-SNAPSHOT.jar &
 
 
+
+--- PLANS -----
+- Integrate DB base security
+- PASSWORD ENCRYPTION
+- NEED AN IDEA WHAT WE CAN INTEGRATE
+- Events photograph
+- B'day Anniversary, and tithis...
+- Familiy Hierarchie
+- Each user's own space
+
